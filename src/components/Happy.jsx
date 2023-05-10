@@ -9,7 +9,7 @@ const Happy = () => {
 
 
             <div className='p-10 text-center border-2 border-slate-200 mt-5 shadow-box-shadow' >
-                <h1 className='text-2xl font-bold mb-5'>Kushal Tiwari</h1>
+                <h1 className='text-2xl font-bold mb-5'>Kushal Tiwari </h1>
                 <p className='md:w-[700px] text-slate-500'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                     enim ad minim veniam, quis nostrud exercitation ullamco laboris
