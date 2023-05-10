@@ -32,9 +32,9 @@ const Why = () => {
              <div className=' flex flex-col md:flex-row'>
                <div className='flex flex-col'>
 
-                {data.map((x) => {
+                {data.map((x,index) => {
                     return (
-                        <div className='flex flex-col md:w-[600px] my-3'>
+                        <div key={index} className='flex flex-col md:w-[600px] my-3'>
                             <h1 className='font-bold md:text-xl mb-2'>{x.question}</h1>
                             <p>{x.answer}</p>
                         </div>
