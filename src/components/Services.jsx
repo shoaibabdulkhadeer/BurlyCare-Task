@@ -5,7 +5,7 @@ const Services = () => {
 
     return (
         <div className='flex flex-col items-center justify-center py-16'>
-            <h1 className='text-2xl md:text-4xl font-bold'>Surgeries we Provide</h1>
+            <h1 className='text-2xl md:text-4xl font-bold'>Surgeries we Provide </h1>
 
             <div className='text-sm md:text-2xl flex flex-col md:flex-row md:py-24 gap-10'>
                 <div className='w-64 p-5 flex flex-col items-center justify-center '>
@@ -62,7 +62,7 @@ const Services = () => {
 
 
             <button className='rounded-full py-2 px-24 bg-transparent text-slate-700 border-slate-700 border'>View all</button>
-          
+
         </div>
     )
 }
