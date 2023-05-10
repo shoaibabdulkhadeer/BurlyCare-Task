@@ -40,7 +40,7 @@ const Numbers = () => {
             <div className='md:flex my-16'>
               {datas.map((x) => {
                 return (
-                    <div className='my-6 px-16 py-5 bg-white md:px-28 md:py-10 mx-5 flex flex-col items-center  justify-center' >
+                    <div className='my-6 shadow-box-shadow px-16 py-5 bg-white md:px-28 md:py-10 mx-5 flex flex-col items-center  justify-center' >
                         <img src={x.image} alt="" />
                         <h1 className='text-4xl font-bold'>{x.numbers}</h1>
                         <p>{x.para}</p>
